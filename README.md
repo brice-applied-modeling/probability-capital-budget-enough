@@ -121,42 +121,9 @@ Commit `pyproject.toml` and `uv.lock` for reproducibility. Set `requires-python 
 
 ## Proposed repository structure
 
-```text
-capital-budget-monte-carlo/
-├── README.md
-├── pyproject.toml
-├── uv.lock
-├── .python-version
-├── .gitignore
-├── docs/
-│   ├── project_overview.md
-│   ├── project_scope.md
-│   ├── project_scenario_and_cost_estimate.md
-│   ├── assumptions_register.md
-│   └── case_study.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_baseline_estimate.ipynb
-│   ├── 02_uncertainty_eda.ipynb
-│   └── 03_results_analysis.ipynb
-├── src/
-│   └── capital_budget_mc/
-│       ├── __init__.py
-│       ├── estimate.py
-│       ├── distributions.py
-│       ├── schedule.py
-│       ├── simulation.py
-│       └── metrics.py
-├── tests/
-│   ├── test_estimate.py
-│   ├── test_schedule.py
-│   └── test_simulation.py
-└── outputs/
-    ├── figures/
-    └── tables/
-```
+For the project structure, see the following location in the repository:
+
+[project structure](docs/01_architecture/00_project_structure.md)
 
 *This is the target structure; directories and modules will be created as work progresses.*
 
