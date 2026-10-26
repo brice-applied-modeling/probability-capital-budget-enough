@@ -50,6 +50,23 @@ The table below is a conceptual estimate for simulation development. Quantity an
 | Owner-held contingency | Illustrative allocation | 1,610,100 |
 | **Initial authorized capital budget** | Baseline + contingency | **12,344,100** |
 
+### 5.1 Baseline-to-Budget Reconciliation
+
+The `config/baseline_estimate.csv` file contains **ten cost items**: eight construction items (`C01`–`C08`) and two project-level soft-cost items (`S01`–`S02`). It does **not** include contingency. The approved budget is a separate funding limit in `config/simulation.yaml`.
+
+| Component | Source / calculation | Amount (USD) |
+|---|---|---:|
+| Base construction estimate | Sum of `C01`–`C08` in `baseline_estimate.csv` | $8,984,000 |
+| Design, permitting, and engineering | `S01` in `baseline_estimate.csv` | $1,050,000 |
+| Construction engineering and inspection (CEI) | `S02` in `baseline_estimate.csv` | $700,000 |
+| **Pre-contingency baseline estimate** | **Sum of all ten CSV cost items** | **$10,734,000** |
+| Owner-held contingency (15%) | $10,734,000 × 0.15 | $1,610,100 |
+| **Authorized hypothetical capital budget** | **$10,734,000 + $1,610,100** | **$12,344,100** |
+
+**Terminology:** The *baseline estimate* is the modeled project's preliminary pre-contingency cost. The *capital budget* is the authorized spending threshold including owner contingency. The phrase *reconciled estimate* means only that the cost components and funding calculation agree arithmetically; it does not describe a second estimate or independent market validation.
+
+**Modeling rule:** Compare simulated total project cost to the $12,344,100 funding limit. Do not add the $1,610,100 contingency as a simulated cost item. All figures remain hypothetical, uncalibrated planning assumptions pending review against acquired evidence.
+
 The contingency is **15% of the pre-contingency baseline**, not a modeled cost item. The budget is a funding threshold, not a simulation input that automatically increases project costs. This distinction prevents double counting.
 
 For presentation, the municipality could instead authorize a rounded **$12.35 million** budget, but the initial model should use the exact $12,344,100 figure to preserve traceability.

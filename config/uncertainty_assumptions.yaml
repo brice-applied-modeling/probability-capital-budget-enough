@@ -1,0 +1,12 @@
+# uncertainty_assumptions.yaml
+
+cost_uncertainty:
+  open_cut_unit_price:
+    distribution: null
+    parameters: null
+    evidence_class: null
+
+  hdd_unit_price:
+    distribution: null
+    parameters: null
+    evidence_class: null

@@ -41,41 +41,7 @@ Build and validate Monte Carlo model
 
 ## 2. Suggested repository structure
 
-```text
-capital-budget-sufficiency/
-├── README.md
-├── pyproject.toml
-├── uv.lock
-├── .python-version
-├── data_requirements.md
-├── data_workflow.md
-├── data/
-│   ├── raw/                  # Original downloaded source records
-│   ├── interim/              # Parsed, not fully standardized
-│   ├── processed/            # Validated, analysis-ready tables
-│   └── source_register.csv
-├── docs/
-│   ├── assumptions_register.md
-│   ├── data_quality_report.md
-│   └── data_dictionary.md
-├── notebooks/
-│   ├── 01_data_ingestion.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   └── 03_exploratory_data_analysis.ipynb
-├── src/
-│   └── capital_budget/
-│       ├── __init__.py
-│       ├── ingestion.py
-│       ├── validation.py
-│       ├── normalization.py
-│       └── datasets.py
-├── tests/
-│   ├── test_validation.py
-│   └── test_normalization.py
-└── outputs/
-    ├── figures/
-    └── tables/
-```
+See [Project Structure](../01_architecture/00_project_structure.md) for the Project Structure.
 
 The notebooks are for investigation and explanation; reusable transformation logic belongs in `src/` and should have tests. Exclude large or restricted raw files from Git where necessary; commit source manifests and retrieval instructions instead.
 

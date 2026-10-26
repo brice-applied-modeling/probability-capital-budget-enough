@@ -1,0 +1,11 @@
+item_id,description,quantity,unit,unit_price_usd,extended_cost_usd,cost_category,evidence_class,source_note
+C01,16-inch open-cut water main,14200,LF,340,4828000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C02,16-inch HDD installation beneath ICW,800,LF,1350,1080000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C03,Isolation valves and appurtenances,12,EA,28000,336000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C04,Connections and tie-ins,4,EA,85000,340000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C05,Pavement sidewalk and surface restoration,1,LS,1150000,1150000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C06,Traffic control and maintenance of traffic,1,LS,420000,420000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C07,Testing disinfection and commissioning,1,LS,180000,180000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+C08,Mobilization and general conditions,1,LS,650000,650000,construction,C,Hypothetical conceptual estimate; not sourced from bid data
+S01,Design permitting and engineering services,1,LS,1050000,1050000,soft_cost,C,Hypothetical conceptual estimate; not sourced from bid data
+S02,Construction engineering and inspection,1,LS,700000,700000,soft_cost,C,Hypothetical conceptual estimate; not sourced from bid data

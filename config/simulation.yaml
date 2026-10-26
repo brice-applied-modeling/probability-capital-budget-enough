@@ -1,0 +1,13 @@
+# Initial hypothetical project configuration; not a historical project budget.
+project:
+  name: "Municipal Water Transmission Main"
+  scenario: "Intracoastal Waterway HDD Crossing"
+  currency: USD
+  budget_type: hypothetical
+  pre_contingency_baseline_usd: 10734000
+  owner_contingency_usd: 1610100
+  budget_usd: 12344100
+
+simulation:
+  iterations: 100000
+  random_seed: 42

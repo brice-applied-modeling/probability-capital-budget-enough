@@ -18,11 +18,12 @@ capital-budget-monte-carlo/
 ├── docs/                             # Technical documentation and case study
 │   │
 │   ├── 00_project_overview/          # Project definition and engineering assumptions
-│   │   ├── project_overview.md       # Purpose, objectives, and expected deliverables
-│   │   ├── project_scope.md          # Research questions, scope, and limitations
-│   │   ├── project_scenario_and_cost_estimate.md
+│   │   ├── 00_project_overview.md       # Purpose, objectives, and expected deliverables
+│   │   ├── 01_project_scope.md          # Research questions, scope, and limitations
+│   │   ├── 02_project_scenario_and_cost_estimate.md
 │   │   │                             # Hypothetical water main project and cost estimate
-│   │   └── assumptions_register.md   # Assumptions, evidence quality, and justification
+│   │   ├── 03_model_workflow_concept.md     # Analytical methodology
+│   │   └── 04_assumptions_register.md   # Assumptions, evidence quality, and justification
 │   │
 │   ├── 01_architecture/              # Software architecture and development standards
 │   │   ├── 00_project_structure.md   # Repository organization and file responsibilities
@@ -35,7 +36,6 @@ capital-budget-monte-carlo/
 │   │   ├── 01_data_workflow.md       # Ingestion, cleaning, validation, and EDA workflow
 │   │   └── 02_notebook_organization.md
 │   │                                 # Notebook purposes and expected deliverables
-│   │
 │   └── 03_case_study/                # Final technical case study and interpretation
 │       └── case_study.md             # Methodology, findings, limitations, recommendations
 │
@@ -43,6 +43,7 @@ capital-budget-monte-carlo/
 │   ├── raw/                          # Original, unmodified downloaded source records
 │   ├── interim/                      # Parsed data requiring further cleaning
 │   ├── processed/                    # Validated and normalized analysis-ready datasets
+│   ├── README.md                     # Data directory structure, provenance, and usage
 │   └── source_register.csv           # Source URLs, dates, descriptions, and quality ratings
 │
 ├── notebooks/                        # Exploratory analysis and reproducible demonstrations
