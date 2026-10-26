@@ -36,8 +36,11 @@ capital-budget-monte-carlo/
 │   │   ├── 01_data_workflow.md       # Ingestion, cleaning, validation, and EDA workflow
 │   │   └── 02_notebook_organization.md
 │   │                                 # Notebook purposes and expected deliverables
-│   └── 03_case_study/                # Final technical case study and interpretation
-│       └── case_study.md             # Methodology, findings, limitations, recommendations
+│   ├── 03_case_study/                # Final technical case study and interpretation
+│   │   └── 00_case_study.md          # Methodology, findings, limitations, recommendations
+│   │
+│   └── 04_checklists/                # Final technical case study and interpretation
+│       └── 00_project_milestones_checklist.md  # Milestones and deliverables checklist
 │
 ├── data/                             # Research datasets and source metadata
 │   ├── raw/                          # Original, unmodified downloaded source records
